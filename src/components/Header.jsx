@@ -1,19 +1,20 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-fluid">
-        <Link className="navbar-brand">
+        <NavLink to="/" className="navbar-brand">
           <img
             src="./src/assets/cat_logo.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
-        </Link>
+        </NavLink>
+
         <form className="d-flex">
           <input
-            className="form-control me-2"
+            className="form-control me-2 bg-dark text-light searchbox"
             type="text"
             placeholder="Search or jumb to.."
           />
@@ -29,54 +30,63 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="mynavbar">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <Link className="nav-link">Pull requests</Link>
+              <NavLink to="/pull-requests" className="nav-link">
+                Pull requests
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">Issues</Link>
+              <NavLink to="/isues" className="nav-link">
+                Issues
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">Codespaces</Link>
+              <NavLink to="/codespaces" className="nav-link">
+                Codespaces
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">Marketplace</Link>
+              <NavLink to="/marketplace" className="nav-link">
+                Marketplace
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">Explore</Link>
+              <NavLink to="/explore" className="nav-link">
+                Explore
+              </NavLink>
             </li>
           </ul>
         </div>
-        <Link className="navbar-brand">
-         <img
+        <NavLink to="/notifications" className="navbar-brand me-2">
+          <img
             src="./src/assets/Vector.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
-        </Link>
-        <Link className="navbar-brand">
-         <img
+        </NavLink>
+        <NavLink>
+          <img
             src="./src/assets/plus.png"
             alt="CompanyLogo"
-            className="rounded-pill"
+            className="rounded-pill px-1 ms-1"
           />
           <img
             src="./src/assets/downarrow.png"
             alt="CompanyLogo"
-            className="rounded-pill"
+            className="rounded-pill px-1 me-1"
           />
-        </Link>
-        <Link className="navbar-brand">
+        </NavLink>
+        <NavLink>
           <img
             src="./src/assets/Avatar.png"
             alt="CompanyLogo"
-            className="rounded-pill"
+            className="rounded-pill px-1 ms-1"
           />
-
           <img
             src="./src/assets/downarrow.png"
             alt="CompanyLogo"
-            className="rounded-pill"
+            className="rounded-pill px-1 me-1"
           />
-        </Link>
+        </NavLink>
       </div>
     </nav>
   );
