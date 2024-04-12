@@ -55,6 +55,7 @@ function PublicProfileSettings() {
           </NavLink>
         </li>
       </ul>
+      <hr />
     </div>
   );
 }

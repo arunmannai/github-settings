@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function CodeAutomationSettings() {
   return (
     <div className="sidebar">
-      Code, planning, and automation
+      <div className="heading">Code, planning, and automation</div>
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
           <NavLink to="/repositories"><img
@@ -54,6 +54,7 @@ function CodeAutomationSettings() {
           Saved replies
        </NavLink> </li>
       </ul>
+      <hr />
     </div>
   );
 }

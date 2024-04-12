@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function IntegrationSettings() {
   return (
     <div className="sidebar">
-      Integrations
+      <div className="heading">Integrations</div>
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
           <NavLink to="/applications"><img
@@ -22,6 +22,7 @@ function IntegrationSettings() {
           Scheduled reminders
        </NavLink> </li>
       </ul>
+      <hr />
     </div>
   );
 }

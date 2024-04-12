@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function ArchivesSettings() {
   return (
     <div className="sidebar">
-      Archives
+      <div className="heading">Archives</div>
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
           <NavLink to="/security-log"><img
@@ -22,6 +22,7 @@ function ArchivesSettings() {
           Sponsorship log
        </NavLink> </li>
       </ul>
+      <hr />
     </div>
   );
 }

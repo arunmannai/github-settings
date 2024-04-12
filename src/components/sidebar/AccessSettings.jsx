@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function AccessSettings() {
   return (
     <div className="sidebar">
-      Access
+      <div className="heading">Access</div>
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
           <NavLink to="/billing"><img
@@ -62,6 +62,7 @@ function AccessSettings() {
           Moderation
        </NavLink> </li>
       </ul>
+      <hr />
     </div>
   );
 }

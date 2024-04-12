@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
-      <Link to="/default" className="logo">
+      <Link to="/" className="logo">
         <img src="./src/assets/cat_logo_b.png" alt="CompanyLogo" />
       </Link>
-      <span>© 2023 GitHub, Inc.</span>
+      <span>&copy; 2024 GitHub, Inc.</span>
       <Link to="/terms">Terms</Link>
       <Link to="/privacy">Privacy</Link>
       <Link to="/security">Security</Link>

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function SecuritySettings() {
   return (
     <div className="sidebar">
-      Security
+      <div className="heading">Security</div>
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
         <NavLink to="/security">
@@ -15,6 +15,7 @@ function SecuritySettings() {
           Code security and analysis
        </NavLink> </li>
       </ul>
+      <hr />
     </div>
   );
 }

@@ -58,7 +58,6 @@
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -72,7 +71,11 @@
 
 .sidebar a {
     text-decoration: none;
-    color: inherit;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #24292F;
 }
 
 .sidebar a.active {
@@ -98,5 +101,14 @@
 .searchbox::placeholder {
     color: white !important;
     opacity: 50% !important;
+}
 
+.sidebar .heading {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #57606A;
+    padding-left: 5px;
+    padding-bottom: 10px;
 }
