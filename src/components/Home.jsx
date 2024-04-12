@@ -1,5 +1,11 @@
+import PublicProfileMainSettings from "./main/PublicProfileMainSettings";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <PublicProfileMainSettings />
+    </>
+  );
 }
 
 export default Home;

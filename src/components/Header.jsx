@@ -4,13 +4,13 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand">
+        <Link className="navbar-brand">
           <img
             src="./src/assets/cat_logo.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
-        </a>
+        </Link>
         <form className="d-flex">
           <input
             className="form-control me-2"
@@ -29,31 +29,31 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="mynavbar">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <a className="nav-link">Pull requests</a>
+              <Link className="nav-link">Pull requests</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Issues</a>
+              <Link className="nav-link">Issues</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Codespaces</a>
+              <Link className="nav-link">Codespaces</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Marketplace</a>
+              <Link className="nav-link">Marketplace</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Explore</a>
+              <Link className="nav-link">Explore</Link>
             </li>
           </ul>
         </div>
-        <a className="navbar-brand">
-          <img
+        <Link className="navbar-brand">
+         <img
             src="./src/assets/Vector.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
-        </a>
-        <a className="navbar-brand">
-          <img
+        </Link>
+        <Link className="navbar-brand">
+         <img
             src="./src/assets/plus.png"
             alt="CompanyLogo"
             className="rounded-pill"
@@ -63,8 +63,8 @@ const Header = () => {
             alt="CompanyLogo"
             className="rounded-pill"
           />
-        </a>
-        <a className="navbar-brand">
+        </Link>
+        <Link className="navbar-brand">
           <img
             src="./src/assets/Avatar.png"
             alt="CompanyLogo"
@@ -76,7 +76,7 @@ const Header = () => {
             alt="CompanyLogo"
             className="rounded-pill"
           />
-        </a>
+        </Link>
       </div>
     </nav>
   );

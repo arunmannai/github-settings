@@ -1,64 +1,66 @@
+import { NavLink } from "react-router-dom";
+
 function AccessSettings() {
   return (
     <div className="sidebar">
       Access
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/billing"><img
             src="./src/assets/pub.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Billing and plans
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/emails"><img
             src="./src/assets/sett.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Emails
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/authentication"><img
             src="./src/assets/Appe.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Password and authentication
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/sessions"><img
             src="./src/assets/access.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Sessions
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/ssh-gpg-keys"><img
             src="./src/assets/bell.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           SSH and GPG keys
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/organizations"><img
             src="./src/assets/bell.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Organizations
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/moderation"><img
             src="./src/assets/bell.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Moderation
-        </li>
+       </NavLink> </li>
       </ul>
     </div>
   );

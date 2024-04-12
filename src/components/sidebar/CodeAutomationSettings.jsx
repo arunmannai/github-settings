@@ -1,56 +1,58 @@
+import { NavLink } from "react-router-dom";
+
 function CodeAutomationSettings() {
   return (
     <div className="sidebar">
       Code, planning, and automation
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/repositories"><img
             src="./src/assets/pub.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Repositories
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/codespaces"><img
             src="./src/assets/sett.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Codespaces
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/packages"><img
             src="./src/assets/Appe.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Packages
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/copilot"><img
             src="./src/assets/access.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Copilot
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/pages"><img
             src="./src/assets/bell.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Pages
-        </li>
+       </NavLink> </li>
         <li className="list-group-item mb-1">
-          <img
+          <NavLink to="/saved-replies"><img
             src="./src/assets/bell.png"
             alt="CompanyLogo"
             className="rounded-pill"
           />
           Saved replies
-        </li>
+       </NavLink> </li>
       </ul>
     </div>
   );
