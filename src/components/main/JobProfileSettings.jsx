@@ -12,4 +12,5 @@ function JobProfileSettings() {
     </>
   );
 }
+
 export default JobProfileSettings;

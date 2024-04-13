@@ -36,4 +36,5 @@ function ContributionsSettings() {
     </>
   );
 }
+
 export default ContributionsSettings;

@@ -30,7 +30,7 @@ function PublicProfileMainSettings() {
         </select>
         <div className="description">
           You have set your email address to private. To toggle email privacy,
-          go to email settings and uncheck "Keep my email address private."
+          go to email settings and uncheck &quot;Keep my email address private.&quot;
         </div>
       </div>
       <div className="mb-3">
@@ -49,7 +49,7 @@ function PublicProfileMainSettings() {
         <h5>Pronouns</h5>
         <select className="form-select" defaultValue="">
           <option value="" disabled>
-            Don't specify
+            Don&apos;t specify
           </option>
         </select>
       </div>
@@ -159,8 +159,8 @@ function PublicProfileMainSettings() {
         />
         <div className="description">
           All of the fields on this page are optional and can be deleted at any
-          time, and by filling them out, you're giving us consent to share this
-          data wherever your user profile appears. Please see our
+          time, and by filling them out, you&apos;re giving us consent to share this
+          data wherever your user profile appears. Please see our&nbsp; 
           <a href="">privacy statement</a> to learn more about how we use this
           information.
         </div>

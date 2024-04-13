@@ -23,4 +23,5 @@ leaderboards and releases.
     </>
   );
 }
+
 export default ProfileSettings;

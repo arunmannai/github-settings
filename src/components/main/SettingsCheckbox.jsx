@@ -21,4 +21,5 @@ function SettingsCheckbox({ name, title, summary }) {
     </div>
   );
 }
+
 export default SettingsCheckbox;

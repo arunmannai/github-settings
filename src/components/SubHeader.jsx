@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
-
-const SubHeader = () => {
+function SubHeader() {
   return (
     <div className="container table-responsive mt-3 mb-2">
       <table className="table table-borderless m-0">
@@ -28,5 +26,6 @@ const SubHeader = () => {
       </table>
     </div>
   );
-};
+}
+
 export default SubHeader;

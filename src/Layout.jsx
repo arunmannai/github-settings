@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SubHeader from "./components/SubHeader";
 
-const Layout = () => {
+function Layout() {
   return (
     <>
       <header>
@@ -30,5 +30,6 @@ const Layout = () => {
       </footer>
     </>
   );
-};
+}
+
 export default Layout;

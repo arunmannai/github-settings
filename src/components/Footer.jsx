@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+function Footer() {
   return (
     <div className="footer">
       <Link to="/" className="logo">
@@ -20,5 +20,6 @@ const Footer = () => {
       <Link to="/about">About</Link>
     </div>
   );
-};
+}
+
 export default Footer;
