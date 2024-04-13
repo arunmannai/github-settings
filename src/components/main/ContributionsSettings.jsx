@@ -30,7 +30,10 @@ function ContributionsSettings() {
         title={private_contributions_title}
         summary={private_contributions_summary}
       />
-      <button className="btn btn-secondary btn-custom mb-5">
+      <button
+        onClick={() => alert("Updated preferences")}
+        className="btn btn-secondary btn-custom mb-5"
+      >
         Update preferences
       </button>
     </>

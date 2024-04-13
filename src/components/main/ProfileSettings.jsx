@@ -17,7 +17,10 @@ leaderboards and releases.
         title={show_achievements_title}
         summary={show_achievements_summary}
       />
-      <button className="btn btn-secondary btn-custom mb-5">
+      <button
+        onClick={() => alert("Updated preferences")}
+        className="btn btn-secondary btn-custom mb-5"
+      >
         Update preferences
       </button>
     </>

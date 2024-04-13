@@ -30,7 +30,8 @@ function PublicProfileMainSettings() {
         </select>
         <div className="description">
           You have set your email address to private. To toggle email privacy,
-          go to email settings and uncheck &quot;Keep my email address private.&quot;
+          go to email settings and uncheck &quot;Keep my email address
+          private.&quot;
         </div>
       </div>
       <div className="mb-3">
@@ -159,13 +160,18 @@ function PublicProfileMainSettings() {
         />
         <div className="description">
           All of the fields on this page are optional and can be deleted at any
-          time, and by filling them out, you&apos;re giving us consent to share this
-          data wherever your user profile appears. Please see our&nbsp; 
+          time, and by filling them out, you&apos;re giving us consent to share
+          this data wherever your user profile appears. Please see our&nbsp;
           <a href="">privacy statement</a> to learn more about how we use this
           information.
         </div>
       </div>
-      <button className="btn btn-success mb-5 mt-2">Update profile</button>
+      <button
+        onClick={() => alert("Updated profile")}
+        className="btn btn-success mb-5 mt-2"
+      >
+        Update profile
+      </button>
     </div>
   );
 }

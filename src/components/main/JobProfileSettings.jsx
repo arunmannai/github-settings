@@ -6,7 +6,10 @@ function JobProfileSettings() {
       <h2>Jobs profile</h2>
       <hr />
       <SettingsCheckbox name="available_for_hire" title="Available for hire" />
-      <button className="btn btn-secondary btn-custom mb-5 mt-2">
+      <button
+        onClick={() => alert("Saved jobs profile")}
+        className="btn btn-secondary btn-custom mb-5 mt-2"
+      >
         Save jobs profile
       </button>
     </>
