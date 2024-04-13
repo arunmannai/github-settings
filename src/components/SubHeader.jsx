@@ -8,7 +8,7 @@ const SubHeader = () => {
           <tr>
             <td className="subheader-logo text-center px-0">
               <img
-                src="./src/assets/subhead1.png"
+                src="/assets/subhead1.png"
                 alt="subhead1"
                 className="rounded-pill"
               />

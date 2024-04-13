@@ -8,7 +8,7 @@ function IntegrationSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/applications">
             <img
-              src="./src/assets/app.png"
+              src="/assets/app.png"
               alt="app"
               className="rounded-pill"
             />
@@ -18,7 +18,7 @@ function IntegrationSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/scheduled-reminders">
             <img
-              src="./src/assets/clock.png"
+              src="/assets/clock.png"
               alt="clock"
               className="rounded-pill"
             />

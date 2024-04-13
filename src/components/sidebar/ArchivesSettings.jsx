@@ -8,7 +8,7 @@ function ArchivesSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/security-log">
             <img
-              src="./src/assets/log1.png"
+              src="/assets/log1.png"
               alt="log1"
               className="rounded-pill"
             />
@@ -18,7 +18,7 @@ function ArchivesSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/sponsorship-log">
             <img
-              src="./src/assets/log2.png"
+              src="/assets/log2.png"
               alt="log2"
               className="rounded-pill"
             />

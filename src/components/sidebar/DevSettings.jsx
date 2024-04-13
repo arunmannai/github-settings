@@ -7,7 +7,7 @@ function DevSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/dev-settings">
             <img
-              src="./src/assets/arr.png"
+              src="/assets/arr.png"
               alt="arr"
               className="rounded-pill"
             />

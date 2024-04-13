@@ -64,7 +64,7 @@ function PublicProfileMainSettings() {
             <div className="row align-items-center">
               <div className="col-auto">
                 <img
-                  src="./src/assets/linkicon.png"
+                  src="/assets/linkicon.png"
                   alt="linkicon"
                   className="rounded-pill"
                 />
@@ -82,7 +82,7 @@ function PublicProfileMainSettings() {
             <div className="row align-items-center">
               <div className="col-auto">
                 <img
-                  src="./src/assets/linkicon.png"
+                  src="/assets/linkicon.png"
                   alt="linkicon"
                   className="rounded-pill"
                 />
@@ -100,7 +100,7 @@ function PublicProfileMainSettings() {
             <div className="row align-items-center">
               <div className="col-auto">
                 <img
-                  src="./src/assets/linkicon.png"
+                  src="/assets/linkicon.png"
                   alt="linkicon"
                   className="rounded-pill"
                 />
@@ -118,7 +118,7 @@ function PublicProfileMainSettings() {
             <div className="row align-items-center">
               <div className="col-auto">
                 <img
-                  src="./src/assets/linkicon.png"
+                  src="/assets/linkicon.png"
                   alt="linkicon"
                   className="rounded-pill"
                 />

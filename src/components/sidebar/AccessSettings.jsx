@@ -8,7 +8,7 @@ function AccessSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/billing">
             <img
-              src="./src/assets/bill.png"
+              src="/assets/bill.png"
               alt="bill"
               className="rounded-pill"
             />
@@ -18,7 +18,7 @@ function AccessSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/emails">
             <img
-              src="./src/assets/mail.png"
+              src="/assets/mail.png"
               alt="mail"
               className="rounded-pill"
             />
@@ -28,7 +28,7 @@ function AccessSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/authentication">
             <img
-              src="./src/assets/auth.png"
+              src="/assets/auth.png"
               alt="auth"
               className="rounded-pill"
             />
@@ -38,7 +38,7 @@ function AccessSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/sessions">
             <img
-              src="./src/assets/hotspot.png"
+              src="/assets/hotspot.png"
               alt="sess"
               className="rounded-pill"
             />
@@ -48,7 +48,7 @@ function AccessSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/ssh-gpg-keys">
             <img
-              src="./src/assets/key.png"
+              src="/assets/key.png"
               alt="key"
               className="rounded-pill"
             />
@@ -58,7 +58,7 @@ function AccessSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/organizations">
             <img
-              src="./src/assets/org.png"
+              src="/assets/org.png"
               alt="org"
               className="rounded-pill"
             />
@@ -68,7 +68,7 @@ function AccessSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/moderation">
             <img
-              src="./src/assets/mode.png"
+              src="/assets/mode.png"
               alt="mode"
               className="rounded-pill"
             />

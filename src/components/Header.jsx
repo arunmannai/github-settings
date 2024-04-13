@@ -5,7 +5,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container-fluid">
         <NavLink to="/" className="navbar-brand">
-          <img src="./src/assets/cat_logo.png" className="rounded-pill" />
+          <img src="/assets/cat_logo.png" className="rounded-pill" />
         </NavLink>
 
         <form className="d-flex">
@@ -53,22 +53,22 @@ const Header = () => {
           </ul>
         </div>
         <NavLink to="/notifications" className="navbar-brand me-2">
-          <img src="./src/assets/Vector.png" className="rounded-pill" />
+          <img src="/assets/Vector.png" className="rounded-pill" />
         </NavLink>
         <NavLink>
-          <img src="./src/assets/plus.png" className="rounded-pill px-1 ms-1" />
+          <img src="/assets/plus.png" className="rounded-pill px-1 ms-1" />
           <img
-            src="./src/assets/downarrow.png"
+            src="/assets/downarrow.png"
             className="rounded-pill px-1 me-1"
           />
         </NavLink>
         <NavLink>
           <img
-            src="./src/assets/Avatar.png"
+            src="/assets/Avatar.png"
             className="rounded-pill px-1 ms-1"
           />
           <img
-            src="./src/assets/downarrow.png"
+            src="/assets/downarrow.png"
             className="rounded-pill px-1 me-1"
           />
         </NavLink>

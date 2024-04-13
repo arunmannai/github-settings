@@ -8,7 +8,7 @@ function CodeAutomationSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/repositories">
             <img
-              src="./src/assets/rep.png"
+              src="/assets/rep.png"
               alt="rep"
               className="rounded-pill"
             />
@@ -18,7 +18,7 @@ function CodeAutomationSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/codespaces">
             <img
-              src="./src/assets/code.png"
+              src="/assets/code.png"
               alt="code"
               className="rounded-pill"
             />
@@ -28,7 +28,7 @@ function CodeAutomationSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/packages">
             <img
-              src="./src/assets/pack.png"
+              src="/assets/pack.png"
               alt="pack"
               className="rounded-pill"
             />
@@ -38,7 +38,7 @@ function CodeAutomationSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/copilot">
             <img
-              src="./src/assets/cop.png"
+              src="/assets/cop.png"
               alt="cop"
               className="rounded-pill"
             />
@@ -48,7 +48,7 @@ function CodeAutomationSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/pages">
             <img
-              src="./src/assets/pag.png"
+              src="/assets/pag.png"
               alt="pag"
               className="rounded-pill"
             />
@@ -58,7 +58,7 @@ function CodeAutomationSettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/saved-replies">
             <img
-              src="./src/assets/arrow.png"
+              src="/assets/arrow.png"
               alt="arrow"
               className="rounded-pill"
             />

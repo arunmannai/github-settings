@@ -8,7 +8,7 @@ function SecuritySettings() {
         <li className="list-group-item mb-1">
           <NavLink to="/security">
             <img
-              src="./src/assets/sec.png"
+              src="/assets/sec.png"
               alt="sec"
               className="rounded-pill"
             />
