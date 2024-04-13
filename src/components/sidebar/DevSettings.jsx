@@ -5,13 +5,15 @@ function DevSettings() {
     <div className="sidebar">
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
-          <NavLink to="/dev-settings"><img
-            src="./src/assets/bell.png"
-            alt="CompanyLogo"
-            className="rounded-pill"
-          />
-          Developer settings
-       </NavLink> </li>
+          <NavLink to="/dev-settings">
+            <img
+              src="./src/assets/arr.png"
+              alt="arr"
+              className="rounded-pill"
+            />
+            Developer settings
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

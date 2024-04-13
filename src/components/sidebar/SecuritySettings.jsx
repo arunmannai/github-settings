@@ -6,14 +6,15 @@ function SecuritySettings() {
       <div className="heading">Security</div>
       <ul className="list-group-flush ms-0 ps-0">
         <li className="list-group-item mb-1">
-        <NavLink to="/security">
-          <img
-            src="./src/assets/bell.png"
-            alt="CompanyLogo"
-            className="rounded-pill"
-          />
-          Code security and analysis
-       </NavLink> </li>
+          <NavLink to="/security">
+            <img
+              src="./src/assets/sec.png"
+              alt="sec"
+              className="rounded-pill"
+            />
+            Code security and analysis
+          </NavLink>
+        </li>
       </ul>
       <hr />
     </div>

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <Link to="/" className="logo">
-        <img src="./src/assets/cat_logo_b.png" alt="CompanyLogo" />
+        <img src="./src/assets/cat_logo_b.png" />
       </Link>
       <span>&copy; 2024 GitHub, Inc.</span>
       <Link to="/terms">Terms</Link>

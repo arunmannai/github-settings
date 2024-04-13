@@ -112,3 +112,82 @@
     padding-left: 5px;
     padding-bottom: 10px;
 }
+
+.div p {
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #57606A;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    color: #57606A;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+div span {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #57606A;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+div label {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #57606A;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.btn-custom {
+    background-color: #F6F8F9;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #E6E8E9;
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.subheader-logo {
+    width: 80px;
+}
+
+.subheader-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #24292F;
+}
+
+.subheader-ypa {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #57606A;
+}

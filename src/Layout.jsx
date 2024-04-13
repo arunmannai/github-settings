@@ -11,14 +11,14 @@ const Layout = () => {
         <Header />
         <SubHeader />
       </header>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
-          <div className="col-sm-2">
+          <div className="col-sm-3">
             <aside>
               <Sidebar />
             </aside>
           </div>
-          <div className="col-sm-10">
+          <div className="col-sm-9">
             <main>
               <Outlet />
             </main>
