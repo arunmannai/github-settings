@@ -1,7 +1,13 @@
+import SettingsCheckbox from "./SettingsCheckbox";
+
 function PublicProfileMainSettings() {
+  const display_local_time_title = "Display current local time";
+  const display_local_time_summary =
+    "Other users will see the time difference from their local time.";
+
   return (
-    <>
-      <div className="container-fluid mb-3">
+    <div className="container-fluid">
+      <div className="mb-3">
         <h2>Public profile</h2>
         <hr />
         <h5>Name</h5>
@@ -10,51 +16,48 @@ function PublicProfileMainSettings() {
           placeholder="Peter Griffin"
           className="form-control"
         />
-        <br />
-        <span>
+        <div className="description">
           Your name may appear around GitHub where you contribute or are
           mentioned. You can remove it at any time.
-        </span>
+        </div>
       </div>
-      <div className="container-fluid mb-3">
+      <div className="mb-3">
         <h5>Public email</h5>
-        <input
-          type="number"
-          placeholder="Select a verified email to display"
-          className="form-control"
-        />
-        <br />
-        <span>
+        <select className="form-select" defaultValue="">
+          <option value="" disabled>
+            Select a verified email to display
+          </option>
+        </select>
+        <div className="description">
           You have set your email address to private. To toggle email privacy,
           go to email settings and uncheck "Keep my email address private."
-        </span>
+        </div>
       </div>
-      <div className="container-fluid mb-3">
+      <div className="mb-3">
         <h5>Bio</h5>
-        <input
-          type="number"
-          placeholder="Select a verified email to display"
-          className="container p-5 border"
-        />
-        <br />
-        <span>
-          You can @mention other users and organizations to link to them.
-        </span>
-      </div>
-      <div className="container-fluid mb-3">
-        <h5>Pronouns</h5>
-        <input
-          type="number"
-          placeholder="Don't specify"
+        <textarea
           className="form-control"
-        />
-        <br />
+          rows="3"
+          placeholder="Tell us a little bit about yourself"
+        ></textarea>
+
+        <div className="description">
+          You can @mention other users and organizations to link to them.
+        </div>
       </div>
-      <div className="container-fluid mb-3">
+      <div className="mb-3">
+        <h5>Pronouns</h5>
+        <select className="form-select" defaultValue="">
+          <option value="" disabled>
+            Don't specify
+          </option>
+        </select>
+      </div>
+      <div className="mb-3">
         <h5>URL</h5>
-        <input type="number" className="form-control" />
+        <input type="text" className="form-control" />
       </div>
-      <div className="container-fluid mb-3">
+      <div className="mb-3">
         <h5>Social accounts</h5>
         <ul className="list-group-flush ms-0 ps-0">
           <li className="list-group-item mb-1">
@@ -131,53 +134,39 @@ function PublicProfileMainSettings() {
           </li>
         </ul>
       </div>
-      <div className="container-fluid">
+      <div>
         <h5>Company</h5>
-        <input type="number" className="form-control" />
-        <span>
-          You can @mention your company’s GitHub organization to link it.
-        </span>
+        <input type="text" className="form-control" />
+        <div className="description">
+          You can <strong>@mention</strong> your company’s GitHub organization
+          to link it.
+        </div>
         <hr />
       </div>
-      <div className="container-fluid mt-2">
+      <div className="mt-2">
         <h5>Location</h5>
         <input
-          type="number"
+          type="text"
           className="form-control"
           placeholder="Dubuque, Iowa"
         />
       </div>
-      <div className="container-fluid">
-        <div className="form-check mt-3">
-          <input
-            className="form-check-input"
-            type="checkbox"
-            id="check1"
-            name="option1"
-            value="something"
-            checked
-          />
-          <label className="form-check-label">Display current local time</label>
-          <p>
-            <span>
-              Other users will see the time difference from their local time.
-            </span>
-          </p>
-
-          <p>
-            <span>
-              All of the fields on this page are optional and can be deleted at
-              any time, and by filling them out, you're giving us consent to
-              share this data wherever your user profile appears. Please see our
-              privacy statement to learn more about how we use this information.
-            </span>
-          </p>
+      <div className="mt-3">
+        <SettingsCheckbox
+          name="display_local_time"
+          title={display_local_time_title}
+          summary={display_local_time_summary}
+        />
+        <div className="description">
+          All of the fields on this page are optional and can be deleted at any
+          time, and by filling them out, you're giving us consent to share this
+          data wherever your user profile appears. Please see our
+          <a href="">privacy statement</a> to learn more about how we use this
+          information.
         </div>
       </div>
-      <button type="button" className="btn btn-success mb-5">
-        Update profile
-      </button>
-    </>
+      <button className="btn btn-success mb-5 mt-2">Update profile</button>
+    </div>
   );
 }
 
