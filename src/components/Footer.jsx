@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer container-fluid">
       <Link to="/" className="logo">
         <img src="/assets/cat_logo_b.png" />
       </Link>
