@@ -1,9 +1,19 @@
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
+  const [collapsed, setCollapsed] = useState(true);
+
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
       <div className="container-fluid">
+        <button
+          className="navbar-toggler"
+          type="button"
+          onClick={() => setCollapsed(!collapsed)}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
         <NavLink to="/" className="navbar-brand">
           <img src="/assets/cat_logo.png" className="rounded-pill" />
         </NavLink>
@@ -15,15 +25,8 @@ function Header() {
             placeholder="Search or jumb to.."
           />
         </form>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mynavbar"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="mynavbar">
+
+        <div className={`navbar-collapse ${collapsed && "collapse"}`}>
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
               <NavLink to="/pull-requests" className="nav-link">
@@ -57,20 +60,11 @@ function Header() {
         </NavLink>
         <NavLink>
           <img src="/assets/plus.png" className="rounded-pill px-1 ms-1" />
-          <img
-            src="/assets/downarrow.png"
-            className="rounded-pill px-1 me-1"
-          />
+          <img src="/assets/downarrow.png" className="rounded-pill px-1 me-1" />
         </NavLink>
         <NavLink>
-          <img
-            src="/assets/Avatar.png"
-            className="rounded-pill px-1 ms-1"
-          />
-          <img
-            src="/assets/downarrow.png"
-            className="rounded-pill px-1 me-1"
-          />
+          <img src="/assets/Avatar.png" className="rounded-pill px-1 ms-1" />
+          <img src="/assets/downarrow.png" className="rounded-pill px-1 me-1" />
         </NavLink>
       </div>
     </nav>
